@@ -1,14 +1,14 @@
 <template>
   <nav class="filter-nav">
-      <button 
+      <button
         @click="updateFilter('all')"
         :class="{ active: current === 'all' }"
       >View All</button>
-      <button 
+      <button
         @click="updateFilter('completed')"
         :class="{ active: current === 'completed' }"
       >Completed</button>
-      <button 
+      <button
         @click="updateFilter('ongoing')"
         :class="{ active: current === 'ongoing' }"
       >Ongoing</button>
