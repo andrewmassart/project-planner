@@ -77,4 +77,8 @@ h3 {
 .project.complete {
     border-left: 8px solid #00ce89;
 }
+
+.project.complete .tick {
+    color: #00ce89;
+}
 </style>
