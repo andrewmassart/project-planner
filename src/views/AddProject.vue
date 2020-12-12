@@ -70,10 +70,13 @@ form button {
   display: block;
   margin: 20px auto 0;
   background: #00ce89;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
   border: 0;
   border-radius: 6px;
   font-size: 16px;
+}
+form button:hover {
+    color: rgb(216, 240, 211);
 }
 </style>

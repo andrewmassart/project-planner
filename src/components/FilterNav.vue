@@ -28,7 +28,7 @@ export default {
 
 <style>
 .filter-nav button {
-    background: none;
+    background: transparent;
     border: none;
     color: #bbb;
     outline: none;
@@ -41,5 +41,11 @@ export default {
 }
 .filter-nav button.active {
     color: #555;
+    border-bottom: 2px solid #555;
 }
+.filter-nav button:hover {
+    color: #555;
+    transition: .2s ease-in-out;
+}
+
 </style>

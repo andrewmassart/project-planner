@@ -58,6 +58,13 @@ export default {
   border-radius: 4px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
   border-left: 8px solid #e90074;
+  border-right: 8px solid #e90074;
+}
+.project:hover {
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.18);
+}
+.project:active {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 
 h3 {
@@ -84,6 +91,7 @@ h3 {
 /* change left border color for completed projects */
 .project.complete {
   border-left: 8px solid #00ce89;
+  border-right: 8px solid #00ce89;
 }
 
 .project.complete .tick {

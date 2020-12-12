@@ -21,8 +21,15 @@ export default {};
     color: #999;
     font-size: 18px;
 }
+.main-nav a:hover {
+    color: #555;
+    transition: .2s ease-in-out;
+
+}
 a.router-link-active {
-    border-bottom: 2px solid #00ce89;
+    border-bottom: 2px solid #555;
+    color: #555;
+    font-weight: bold;
     padding-bottom: 4px;
 }
 </style>
